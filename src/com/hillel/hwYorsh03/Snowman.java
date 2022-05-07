@@ -1,4 +1,4 @@
-package com.hillel.hw03;
+package com.hillel.hwYorsh03;
 
 public class Snowman {
 

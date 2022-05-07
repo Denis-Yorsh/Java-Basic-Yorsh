@@ -1,4 +1,4 @@
-package com.hillel.hw02;
+package com.hillel.hwYorsh02;
 
 public class Paralepiped {
 

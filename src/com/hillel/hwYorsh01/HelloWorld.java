@@ -1,4 +1,4 @@
-package com.hillel.hw01;
+package com.hillel.hwYorsh01;
 
 public class HelloWorld {
 

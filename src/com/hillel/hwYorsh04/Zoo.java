@@ -1,4 +1,4 @@
-package com.hillel.hw04;
+package com.hillel.hwYorsh04;
 
 public class Zoo {
 
