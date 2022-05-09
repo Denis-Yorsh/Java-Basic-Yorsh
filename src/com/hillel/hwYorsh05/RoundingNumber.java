@@ -24,7 +24,6 @@ public class RoundingNumber {
         int okruglenie1 = (int) Math.round(Double.parseDouble(okruglenie));
         String okruglenie3 = String.valueOf(okruglenie1);
 
-
         String result = massive[0].concat(".").concat(okruglenie3);
         return Double.parseDouble(result);
     }
