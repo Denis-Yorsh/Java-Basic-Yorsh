@@ -25,7 +25,7 @@ public class EnterNumber {
             System.out.println("Round to two decimal places = " + numberDoubleRounding);
             System.out.println("Two decimal places, no rounding = " + umberDoubleNotRounding);
         } else {
-            String resultString = enter.next();
+            String resultString = enter.nextLine();
             String resultStringIndex = String.valueOf(resultString.indexOf("."));
             int result = Integer.parseInt(resultStringIndex);
 
@@ -37,7 +37,7 @@ public class EnterNumber {
                 System.out.println("Round to two decimal places = " + numberAfterDot);
                 System.out.println("Two decimal places, no rounding = " + umberDoubleNotRounding);
             } else {
-                String resultStringAll = resultString.toUpperCase();
+                String resultStringAll = resultString.toUpperCase().trim();
                 System.out.println(resultStringAll);
             }
         }
