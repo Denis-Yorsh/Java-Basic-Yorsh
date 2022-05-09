@@ -7,8 +7,8 @@ public class RoundingNumber {
         double one = doubleToDecimalPlaces(3244.123456789, 1);
         double two = doubleToDecimalPlaces(3244.123456789, 5);
 
-        System.out.println("result of 3 decimal: " + one);
-        System.out.println("result of 4 decimal: " + two);
+        System.out.println("result of 1 decimal: " + one);
+        System.out.println("result of 5 decimal: " + two);
 
     }
 
