@@ -21,12 +21,13 @@ public class Practice {
         }
         arrayNumber.append(array[array.length - 1]);
         System.out.print(arrayNumber);
+        System.out.println();
 
+        System.out.println("-----------------------------------------------------------------");
         Arrays.sort(array);
-        System.out.println();
-        System.out.println();
         System.out.println(Arrays.toString(array));
         Arrays.sort(array, Collections.reverseOrder());
         System.out.println(Arrays.toString(array));
+        System.out.println("-----------------------------------------------------------------");
     }
 }
