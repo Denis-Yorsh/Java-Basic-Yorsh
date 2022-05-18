@@ -1,12 +1,14 @@
 package com.hillel;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Random;
 
 public class Practice {
 
     public static void main(String[] args) {
         int randomNumber = 100;
-        int[] array = new int[20];
+        Integer[] array = new Integer[20];
         StringBuilder arrayNumber = new StringBuilder();
 
         for (int i = 0; i < array.length; i++) {
@@ -19,5 +21,12 @@ public class Practice {
         }
         arrayNumber.append(array[array.length - 1]);
         System.out.print(arrayNumber);
+
+        Arrays.sort(array);
+        System.out.println();
+        System.out.println();
+        System.out.println(Arrays.toString(array));
+        Arrays.sort(array, Collections.reverseOrder());
+        System.out.println(Arrays.toString(array));
     }
 }
