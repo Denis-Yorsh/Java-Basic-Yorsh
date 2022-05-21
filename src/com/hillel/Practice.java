@@ -16,10 +16,9 @@ public class Practice {
             System.out.print(array[i] + " ");
         }
         System.out.println();
-        for (int i = 0; i < array.length - 1; i++) {
-            arrayNumber.append(array[i]).append(".");
+        for (int i = 0; i < array.length; i++) {
+            arrayNumber.append(array[i]).append(i == array.length - 1 ? "" : ".");
         }
-        arrayNumber.append(array[array.length - 1]);
         System.out.print(arrayNumber);
         System.out.println();
 
