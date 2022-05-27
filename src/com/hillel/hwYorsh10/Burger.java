@@ -14,6 +14,30 @@ public class Burger {
         this.cheese = cheese;
         this.greenery = greenery;
         this.mayonnaise = mayonnaise;
+        toStringBurger(bun, meat, cheese, greenery, mayonnaise);
+
+    }
+
+    public Burger(int bun, int meat, int cheese, int greenery) {
+        this.bun = bun;
+        this.meat = meat;
+        this.cheese = cheese;
+        this.greenery = greenery;
+        toStringBurger(bun, meat, cheese, greenery);
+
+    }
+
+    public Burger(int bun, int meat, int twoMeat, int cheese, int greenery, int mayonnaise) {
+        this.bun = bun;
+        this.meat = meat + twoMeat;
+        this.cheese = cheese;
+        this.greenery = greenery;
+        this.mayonnaise = mayonnaise;
+        toStringBurgerDouble(bun, cheese, greenery, mayonnaise);
+
+    }
+
+    private void toStringBurger(int bun, int meat, int cheese, int greenery, int mayonnaise) {
         System.out.println("Burger regular: {" +
                 "bun = " + bun + "ht" +
                 ", meat = " + meat + "gr" +
@@ -23,11 +47,7 @@ public class Burger {
                 '}');
     }
 
-    public Burger(int bun, int meat, int cheese, int greenery) {
-        this.bun = bun;
-        this.meat = meat;
-        this.cheese = cheese;
-        this.greenery = greenery;
+    private void toStringBurger(int bun, int meat, int cheese, int greenery) {
         System.out.println("Burger without mayonnaise: {" +
                 "bun = " + bun + "ht" +
                 ", meat = " + meat + "gr" +
@@ -36,12 +56,7 @@ public class Burger {
                 '}');
     }
 
-    public Burger(int bun, int meat, int twoMeat, int cheese, int greenery, int mayonnaise) {
-        this.bun = bun;
-        this.meat = meat + twoMeat;
-        this.cheese = cheese;
-        this.greenery = greenery;
-        this.mayonnaise = mayonnaise;
+    private void toStringBurgerDouble(int bun, int cheese, int greenery, int mayonnaise) {
         System.out.println("Burger double meat: {" +
                 "bun = " + bun + "ht" +
                 ", meat = " + this.meat + "gr" +
