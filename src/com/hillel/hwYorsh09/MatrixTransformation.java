@@ -19,11 +19,9 @@ public class MatrixTransformation {
 
     private static void extractedTransformation(int[][] arrayEnter) {
         int[][] arrayTransformation = new int[arrayEnter.length][arrayEnter[0].length];
-        int temp;
         for (int i = 0; i < arrayEnter[0].length; i++) {
             for (int j = 0; j < arrayEnter.length; j++) {
-                temp = arrayEnter[j][i];
-                arrayTransformation[j][i] = temp;
+                arrayTransformation[j][i] = arrayEnter[j][i];
                 System.out.print(arrayTransformation[j][i] + " ");
             }
             System.out.println();
