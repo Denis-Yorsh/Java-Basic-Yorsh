@@ -2,7 +2,6 @@ package com.hillel.hwYorsh11.FitnessTracker;
 
 public class UserData {
 
-    private static int count;
     private final String FIRST_NAME;
     private String lastName;
     private final int DATE_OF_BIRDTH_DAY;
