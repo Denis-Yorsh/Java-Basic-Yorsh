@@ -13,16 +13,16 @@ public class UserData {
     private String pressure;
     private int steps;
 
-    public UserData(String FIRST_NAME, String lastName, int DATE_OF_BIRDTH_DAY,
-                    int DATE_OF_BIRDTH_MONTH, int DATE_OF_BIRDTH_YEAR, String EMAIL,
-                    String PHONE_NUMBER, int theWeight, String pressure, int steps) {
-        this.FIRST_NAME = FIRST_NAME;
+    public UserData(String firstName, String lastName, int dateOfBirdthDay,
+                    int dateOfBirdthMonth, int dateOfBirdthYear, String email,
+                    String phoneNumber, int theWeight, String pressure, int steps) {
+        this.FIRST_NAME = firstName;
         this.lastName = lastName;
-        this.DATE_OF_BIRDTH_DAY = DATE_OF_BIRDTH_DAY;
-        this.DATE_OF_BIRDTH_MONTH = DATE_OF_BIRDTH_MONTH;
-        this.DATE_OF_BIRDTH_YEAR = DATE_OF_BIRDTH_YEAR;
-        this.EMAIL = EMAIL;
-        this.PHONE_NUMBER = PHONE_NUMBER;
+        this.DATE_OF_BIRDTH_DAY = dateOfBirdthDay;
+        this.DATE_OF_BIRDTH_MONTH = dateOfBirdthMonth;
+        this.DATE_OF_BIRDTH_YEAR = dateOfBirdthYear;
+        this.EMAIL = email;
+        this.PHONE_NUMBER = phoneNumber;
         this.theWeight = theWeight;
         this.pressure = pressure;
         this.steps = steps;
