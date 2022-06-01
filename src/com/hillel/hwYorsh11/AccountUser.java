@@ -1,4 +1,4 @@
-package com.hillel.hwYorsh11.FitnessTracker;
+package com.hillel.hwYorsh11;
 
 public class AccountUser {
 

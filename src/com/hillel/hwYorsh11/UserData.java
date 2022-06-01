@@ -1,4 +1,4 @@
-package com.hillel.hwYorsh11.FitnessTracker;
+package com.hillel.hwYorsh11;
 
 public class UserData {
 
@@ -13,13 +13,14 @@ public class UserData {
     private String pressure;
     private int steps;
 
-    public UserData(String firstName, String lastName, int dateOfBirdthDay,
-                    int dateOfBirdthMonth, int dateOfBirdthYear, String email,
-                    String phoneNumber, int theWeight, String pressure, int steps) {
+    public UserData(String firstName, String lastName,
+                    int dateOfBirdthDay, int dateOfBirdthMonht,
+                    int dateOfBirdthYear, String email, String phoneNumber,
+                    int theWeight, String pressure, int steps) {
         this.FIRST_NAME = firstName;
         this.lastName = lastName;
         this.DATE_OF_BIRDTH_DAY = dateOfBirdthDay;
-        this.DATE_OF_BIRDTH_MONTH = dateOfBirdthMonth;
+        this.DATE_OF_BIRDTH_MONTH = dateOfBirdthMonht;
         this.DATE_OF_BIRDTH_YEAR = dateOfBirdthYear;
         this.EMAIL = email;
         this.PHONE_NUMBER = phoneNumber;
