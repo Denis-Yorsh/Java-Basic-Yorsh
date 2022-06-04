@@ -9,7 +9,7 @@ public class Triangle {
                 if (j > i) {
                     System.out.print("  ");
                 } else {
-                    System.out.print(j+" ");
+                    System.out.print(1 + (i - j) + " ");
                 }
             }
             System.out.println();
