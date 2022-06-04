@@ -4,7 +4,7 @@ public class CookingCoffee {
 
     private static int coffee;
     private int sugar;
-    private final char dollars = '$';
+    private final char DOLLARS = '$';
 
     public CookingCoffee(int coffee, int sugar) {
         CookingCoffee.coffee = coffee;
@@ -17,7 +17,7 @@ public class CookingCoffee {
 
     @Override
     public String toString() {
-        return "You purchased: Coffee \nOne Coffee = " + Drinks.getCOFFEE() + dollars +
-                "\nQuantity = " + coffee + " \nTotal cost = " + priceCoffee() + dollars;
+        return "You purchased: Coffee \nOne Coffee = " + Drinks.getCOFFEE() + DOLLARS +
+                "\nQuantity = " + coffee + " \nTotal cost = " + priceCoffee() + DOLLARS;
     }
 }

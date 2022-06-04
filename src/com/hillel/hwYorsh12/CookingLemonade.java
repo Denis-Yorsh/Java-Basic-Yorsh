@@ -3,7 +3,7 @@ package com.hillel.hwYorsh12;
 public class CookingLemonade {
 
     private static int counter;
-    private final char dollars = '$';
+    private final char DOLLARS = '$';
 
     public CookingLemonade(int counter) {
         CookingLemonade.counter = counter;
@@ -15,7 +15,7 @@ public class CookingLemonade {
 
     @Override
     public String toString() {
-        return "You purchased: Lemonade \nOne Lemonade = " + Drinks.getLEMONADE() + dollars +
-                "\nQuantity = " + counter + " \nTotal cost = " + priceLemonade() + dollars;
+        return "You purchased: Lemonade \nOne Lemonade = " + Drinks.getLEMONADE() + DOLLARS +
+                "\nQuantity = " + counter + " \nTotal cost = " + priceLemonade() + DOLLARS;
     }
 }

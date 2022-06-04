@@ -3,7 +3,7 @@ package com.hillel.hwYorsh12;
 public class CookingMineral {
 
     private static int counter;
-    private final char dollars = '$';
+    private final char DOLLARS = '$';
 
     public CookingMineral(int counter) {
         CookingMineral.counter = counter;
@@ -15,7 +15,7 @@ public class CookingMineral {
 
     @Override
     public String toString() {
-        return "You purchased: Mineral \nOne Mineral = " + Drinks.getMINERAL() + dollars +
-                "\nQuantity = " + counter + " \nTotal cost = " + priceMineral() + dollars;
+        return "You purchased: Mineral \nOne Mineral = " + Drinks.getMINERAL() + DOLLARS +
+                "\nQuantity = " + counter + " \nTotal cost = " + priceMineral() + DOLLARS;
     }
 }

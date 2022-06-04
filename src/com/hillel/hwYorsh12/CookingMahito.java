@@ -3,7 +3,7 @@ package com.hillel.hwYorsh12;
 public class CookingMahito {
 
     private static int counter;
-    private final char dollars = '$';
+    private final char DOLLARS = '$';
 
     public CookingMahito(int counter) {
         CookingMahito.counter = counter;
@@ -15,7 +15,7 @@ public class CookingMahito {
 
     @Override
     public String toString() {
-        return "You purchased: Mahito \nOne Mahito = " + Drinks.getMAHITO() + dollars +
-                "\nQuantity = " + counter + " \nTotal cost = " + priceMahito() + dollars;
+        return "You purchased: Mahito \nOne Mahito = " + Drinks.getMAHITO() + DOLLARS +
+                "\nQuantity = " + counter + " \nTotal cost = " + priceMahito() + DOLLARS;
     }
 }
