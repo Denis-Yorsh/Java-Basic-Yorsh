@@ -1,4 +1,4 @@
-package com.hillel.PracticeLesson13;
+package com.hillel.PracticeLesson13.Task1;
 
 public class Human implements Swimmable{
 
