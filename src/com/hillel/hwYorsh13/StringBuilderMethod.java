@@ -29,7 +29,15 @@ public class StringBuilderMethod {
         if (length == 0 || length == 1) {
             return s.toCharArray();
         }
+        // Deleting a duplicate
+        char[] tempA = isNotDouble(length, array);
+        //Deleting a NOLL
+        char[] arrayAll = IsNotNoll(tempA);
 
+        return arrayAll;
+    }
+
+    private static char[] isNotDouble(int length, char[] array) {
         char[] tempA = new char[length];
         char j = 0;
         for (int i = 0; i < length - 1; i++) {
@@ -37,10 +45,23 @@ public class StringBuilderMethod {
                 tempA[j++] = array[i];
             }
         }
-        tempA[j++] = array[length-1];
+        tempA[j++] = array[length -1];
         for (int i=0; i<j; i++){
             array[i] = tempA[i];
         }
         return tempA;
+    }
+
+    private static char[] IsNotNoll(char[] tempA) {
+        char temp = 0;
+        int counter = 0;
+        for (int i = 0; i < tempA.length; i++) {
+            if (tempA[i] != temp) {
+                counter ++;
+            }
+        }
+        char[] arrayAll = new char[counter];
+        System.arraycopy(tempA, 0, arrayAll, 0, arrayAll.length);
+        return arrayAll;
     }
 }
