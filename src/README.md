@@ -423,4 +423,25 @@ Duck, Human, Boat
     MusicStyles метод playMusic()
 
 ### Homework 14:
+### Lesson 14: Homeworks discussion
+
+Розібрали та виконали дз №12 при цьому використали
+- Scanner
+- Тернарний оператор
+- Enum
+- Interface
+- Abstract class
+- Наслідування
+- Поліморфізм
+- Інкапсуляцію
+- Static and final
+- for/while
+- switch case
+- static/non static methods
+- generic - optional
+- форматований вивід
+- масиви
+- конструктори різні(super, this)
+
+### Homework 15:
 
