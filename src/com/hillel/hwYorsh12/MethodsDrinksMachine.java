@@ -28,32 +28,32 @@ public class MethodsDrinksMachine {
     }
 
     private static void cocaCola(int intEnter) {
-        CookingCocaCola cocaCola = new CookingCocaCola(intEnter);
+        Coca_Cola cocaCola = new Coca_Cola(intEnter);
         System.out.println(cocaCola);
     }
 
     private static void mineral(int intEnter) {
-        CookingMineral mineral = new CookingMineral(intEnter);
+        Mineral mineral = new Mineral(intEnter);
         System.out.println(mineral);
     }
 
     private static void mahito(int intEnter) {
-        CookingMahito mahito = new CookingMahito(intEnter);
+        Mahito mahito = new Mahito(intEnter);
         System.out.println(mahito);
     }
 
     private static void lemonade(int intEnter) {
-        CookingLemonade lemonade = new CookingLemonade(intEnter);
+        Lemonade lemonade = new Lemonade(intEnter);
         System.out.println(lemonade);
     }
 
     private static void tea(int intEnter) {
-        CookingTea tea = new CookingTea(intEnter, 2);
+        Tea tea = new Tea(intEnter);
         System.out.println(tea);
     }
 
     private static void coffee(int intEnter) {
-        CookingCoffee coffee = new CookingCoffee(intEnter, 2);
+        Coffee coffee = new Coffee(intEnter);
         System.out.println(coffee);
     }
 }
